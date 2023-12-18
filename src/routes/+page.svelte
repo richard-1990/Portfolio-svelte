@@ -1,3 +1,7 @@
+<script>
+	import { CodeBlock } from '@skeletonlabs/skeleton';
+</script>
+
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 
 <div class="container h-full mx-auto flex justify-center items-center">
@@ -8,5 +12,6 @@
 				Launch Documentation
 			</a>
 		</div>
+		<CodeBlock language="ts" code={`const skeleton: string = 'awesome';`}></CodeBlock>
 	</div>
 </div>
